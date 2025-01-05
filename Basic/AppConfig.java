@@ -1,4 +1,6 @@
-public class AppConfig{
 
+@Configuration
+public class AppConfig{
+  
 
 }
