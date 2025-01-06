@@ -7,11 +7,13 @@ public class AppConfig{
   @Bean
   public A createA{
     A a = new A();
+    a.setA(99);
+    a.setMsg("A Bean");
     return a;
   }
   @Bean(name = "b")
   public B createB{
-    B b = new B();
+    B b = new B(199," B Bean ");
     return b;
   }
    @Bean("hello")
