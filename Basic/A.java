@@ -14,7 +14,6 @@ public class A{
   public void setMsg(String msg){
           this.msg = msg;
   }
-
   public String toString(){
       return "a : "+a+" msg : "+msg;
   }
