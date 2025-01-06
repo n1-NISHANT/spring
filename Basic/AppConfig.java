@@ -8,7 +8,7 @@ public class AppConfig{
   public A createA{
     A a = new A();
     a.setA(99);
-    a.setMsg("A Bean");
+    a.setMsg(" A Bean ");
     return a;
   }
   @Bean(name = "b")
