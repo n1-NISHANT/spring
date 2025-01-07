@@ -4,6 +4,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class TestMain{
   public static void main (String [] args){
       ApplicationContext cgf = new AnnotationConfigApplicationContext(AppConfig.java);
-    
+      Hello hello = (Hello)cfg.getBean("hello");
   } 
 }
