@@ -12,5 +12,9 @@ public class Hello{
 		System.out.println("1 param constructor Hello Class");
 		this.bobj = bobj;
 	}
-  
+  	public void show(){
+		System.out.println("show method in Hello Bean");
+		System.out.println(aobj);
+		System.out.println(bobj);	
+	}		
 }
