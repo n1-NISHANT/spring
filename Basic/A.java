@@ -4,6 +4,7 @@ public class A{
 
   statc{
         System.out.println("sctatic blck in A class");
+        
   }
   public A(){
          System.out.println("default cunstructor in A");
