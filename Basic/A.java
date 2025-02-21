@@ -1,7 +1,6 @@
 public class A{
       int a;
       String msg;
-
   statc{
         System.out.println("sctatic blck in A class");
         
